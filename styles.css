@@ -1,0 +1,111 @@
+body {
+    background-color: #14141f;
+    color: #fff;
+    margin: 0;
+    font-family: "Arial";
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    min-width: 1280px;
+    display: flex;
+
+}
+
+.column{
+    width: 50%;
+    margin-top: 200px;
+}
+
+.title{
+    font-size: 56px;
+    margin: 0;
+}
+
+.title-color{
+    color: #e250e5;
+}
+
+.title-text {
+    font-weight: 200;
+}
+
+.btn {
+    background-color: inherit;
+    border: 1px solid #5142fc;
+    padding: 20px;
+    color: #fff;
+    border-radius: 30px;
+    width: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e250e5;
+}
+
+.logo {
+    display: flex;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.session-cards {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1280px;
+}
+
+.card-primary {
+    background-color: #343444;
+    border-radius: 10px;
+    padding: 15px;
+    width: 22%;
+}
+
+.image-card {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.title-nft {
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-buy {
+    background-color: #5142fc;
+    border: 1px solid #5142fc;
+    padding: 15px;
+    color: #fff;
+    border-radius: 30px;
+    width: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.btn-buy:hover {
+    background-color: #e250e5;
+}
+
+.session-text {
+    margin-top: 200px;
+    width: 1280px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #000;
+    padding: 30px;
+    text-align: center;
+    margin-top: 200px;
+}
